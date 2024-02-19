@@ -12,59 +12,13 @@ p{
   left: 230px;
   text-align: center;
 }
-[id=demo]{
-  position: absolute;
-  top: 300px;
-  left: 230px;
+
+[id = btnDiv]{
+  
 }
-ul{
-  position: absolute;
-  top: 200px;
-  left: 230px;
-}
-*[id=IMG_msg]{ 
-  position: absolute;
-  top: 150px;
-  left: 10px;
-  border-radius: 8px;
-}
-*[class=BTN]{
-  text-decoration: none;
-  position: absolute;
-  color: #cfc401;
-  cursor: pointer;
-}
-[id = BTN_Oraçao]{
-  text-align: center;
-  top: 110px;
-  left: 750px;
-}
-[id = BTN_Facebook]{
-  text-align: center;
-  top: 110px;
-  left: 600px;
-}
-[id = BTN_Contato]{
-  text-align: center;
-  top: 110px;
-  left: 450px; 
-}
-[id = BTN_Local]{
-  text-align: center;
-  top: 110px;
-  left: 320px ; 
-}
-*[id=IMG_IPI]{ 
-  position: absolute;
-  top: 35px;
-  left: 83%;
-} 
 *[id=Portfolio]{
   text-decoration: none;
   color: rgb(38, 56, 171);
-}
-*[class=Filho]{
-  padding-top: 50%;
 }
 body{
   background-color: white;
