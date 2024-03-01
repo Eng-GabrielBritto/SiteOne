@@ -54,9 +54,14 @@
 <h1>Seja Bem-vindo <br> ao meu portifolio <br> </h1>
 <p>Olá, meu nome é Gabriel Brito e eu estou cursando Engenharia de software!</p>
     <!-- Inicio do Carrossel-->
-<div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-item active">
       <img src="img/devJava.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
